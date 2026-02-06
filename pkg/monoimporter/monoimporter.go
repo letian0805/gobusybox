@@ -15,7 +15,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/u-root/gobusybox/pkg/bb/bbinternal"
+	"github.com/letian0805/gobusybox/pkg/bb/bbinternal"
 	"golang.org/x/tools/go/gcexportdata"
 	"golang.org/x/tools/go/packages"
 )

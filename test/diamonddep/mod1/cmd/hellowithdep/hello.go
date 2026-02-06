@@ -4,9 +4,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/u-root/gobusybox/test/diamonddep/mod1/pkg/hello"
-	"github.com/u-root/gobusybox/test/diamonddep/mod2/pkg/exthello"
-	hello2 "github.com/u-root/gobusybox/test/diamonddep/mod2/pkg/hello"
+	"github.com/letian0805/gobusybox/test/diamonddep/mod1/pkg/hello"
+	"github.com/letian0805/gobusybox/test/diamonddep/mod2/pkg/exthello"
+	hello2 "github.com/letian0805/gobusybox/test/diamonddep/mod2/pkg/hello"
 )
 
 func main() {

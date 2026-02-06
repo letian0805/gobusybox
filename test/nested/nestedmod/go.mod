@@ -1,4 +1,4 @@
-module github.com/u-root/gobusybox/test/nested/nestedmod
+module github.com/letian0805/gobusybox/test/nested/nestedmod
 
 go 1.13
 

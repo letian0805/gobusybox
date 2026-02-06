@@ -18,8 +18,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/u-root/gobusybox/pkg/bb/bbinternal"
-	"github.com/u-root/gobusybox/pkg/golang"
+	"github.com/letian0805/gobusybox/pkg/bb/bbinternal"
+	"github.com/letian0805/gobusybox/pkg/golang"
 	"github.com/u-root/uio/ulog"
 	"golang.org/x/tools/go/packages"
 	"mvdan.cc/sh/v3/shell"
@@ -434,7 +434,7 @@ func ResolveGlobs(l ulog.Logger, genv *golang.Environ, env Env, patterns []strin
 	paths, err := filterGoPaths(l, genv, includes, excludes)
 	if err != nil {
 		if strings.Contains(err.Error(), "go.mod file not found") {
-			return nil, fmt.Errorf("%w: gobusybox has removed previous multi-module functionality in favor of Go workspaces -- read https://github.com/u-root/gobusybox#path-resolution--multi-module-builds for more", err)
+			return nil, fmt.Errorf("%w: gobusybox has removed previous multi-module functionality in favor of Go workspaces -- read https://github.com/letian0805/gobusybox#path-resolution--multi-module-builds for more", err)
 		}
 		return nil, err
 	}

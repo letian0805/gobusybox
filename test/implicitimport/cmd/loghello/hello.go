@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/u-root/gobusybox/test/implicitimport/pkg/defaultlog"
+	"github.com/letian0805/gobusybox/test/implicitimport/pkg/defaultlog"
 )
 
 // Default returns a *log.Logger, but "log" is not imported in this package.

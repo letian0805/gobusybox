@@ -13,8 +13,8 @@ import (
 	"path/filepath"
 
 	"github.com/dustin/go-humanize"
-	"github.com/u-root/gobusybox/pkg/bb"
-	"github.com/u-root/gobusybox/pkg/golang"
+	"github.com/letian0805/gobusybox/pkg/bb"
+	"github.com/letian0805/gobusybox/pkg/golang"
 )
 
 var (

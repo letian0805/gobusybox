@@ -1,3 +1,3 @@
-module github.com/u-root/gobusybox/test/goembed
+module github.com/letian0805/gobusybox/test/goembed
 
 go 1.16

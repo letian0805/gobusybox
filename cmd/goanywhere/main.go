@@ -31,8 +31,8 @@ import (
 	"text/template"
 
 	"github.com/hashicorp/go-version"
-	"github.com/u-root/gobusybox/pkg/bb/findpkg"
-	"github.com/u-root/gobusybox/pkg/golang"
+	"github.com/letian0805/gobusybox/pkg/bb/findpkg"
+	"github.com/letian0805/gobusybox/pkg/golang"
 	"github.com/u-root/uio/ulog"
 	"golang.org/x/exp/maps"
 	"golang.org/x/exp/slices"

@@ -34,9 +34,9 @@ import (
 	"golang.org/x/tools/go/ast/astutil"
 	"golang.org/x/tools/go/packages"
 
-	"github.com/u-root/gobusybox/pkg/bb/bbinternal"
-	"github.com/u-root/gobusybox/pkg/bb/findpkg"
-	"github.com/u-root/gobusybox/pkg/golang"
+	"github.com/letian0805/gobusybox/pkg/bb/bbinternal"
+	"github.com/letian0805/gobusybox/pkg/bb/findpkg"
+	"github.com/letian0805/gobusybox/pkg/golang"
 	"github.com/u-root/uio/ulog"
 
 	_ "embed"
@@ -251,7 +251,7 @@ func (e *ErrBuild) Error() string {
 // They are taken from ./bbmain/register.go and ./bbmain/cmd/main.go, but they
 // do not retain their original import paths because the main command must be
 // in a module that doesn't conflict with any bb commands. If one were to
-// compile github.com/u-root/gobusybox/src/cmd/* into a busybox, we'd have
+// compile github.com/letian0805/gobusybox/src/cmd/* into a busybox, we'd have
 // problems -- the src/go.mod would conflict with our generated go.mod, and
 // it'd be complicated to merge them. So they are transplanted into the
 // bb.u-root.com/bb module.
@@ -275,7 +275,7 @@ func writeBBMain(bbDir, tmpDir string, bbImports []string) error {
 	}
 
 	// Fix the import path for bbmain, since we wrote bbmain/register.go into bbDir above.
-	if !astutil.RewriteImport(bbFset, bbFiles[0], "github.com/u-root/gobusybox/pkg/bb/bbmain", "bb.u-root.com/bb/pkg/bbmain") {
+	if !astutil.RewriteImport(bbFset, bbFiles[0], "github.com/letian0805/gobusybox/pkg/bb/bbmain", "bb.u-root.com/bb/pkg/bbmain") {
 		return fmt.Errorf("could not rewrite import")
 	}
 

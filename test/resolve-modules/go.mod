@@ -1,4 +1,4 @@
-module github.com/u-root/gobusybox/test/resolve-modules
+module github.com/letian0805/gobusybox/test/resolve-modules
 
 go 1.15
 

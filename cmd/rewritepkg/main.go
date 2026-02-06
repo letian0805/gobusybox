@@ -14,9 +14,9 @@ import (
 	"log"
 	"path/filepath"
 
-	"github.com/u-root/gobusybox/pkg/bb/bbinternal"
-	"github.com/u-root/gobusybox/pkg/monoimporter"
-	"github.com/u-root/gobusybox/pkg/uflag"
+	"github.com/letian0805/gobusybox/pkg/bb/bbinternal"
+	"github.com/letian0805/gobusybox/pkg/monoimporter"
+	"github.com/letian0805/gobusybox/pkg/uflag"
 )
 
 var (

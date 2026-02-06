@@ -2,8 +2,8 @@
 package exthello
 
 import (
-	hello1 "github.com/u-root/gobusybox/test/diamonddep/mod1/pkg/hello"
-	hello3 "github.com/u-root/gobusybox/test/diamonddep/mod3/pkg/hello"
+	hello1 "github.com/letian0805/gobusybox/test/diamonddep/mod1/pkg/hello"
+	hello3 "github.com/letian0805/gobusybox/test/diamonddep/mod3/pkg/hello"
 )
 
 func Hello() string {

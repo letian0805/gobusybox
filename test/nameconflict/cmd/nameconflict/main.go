@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	// defaultlog declares itself as `package deflog`.
-	"github.com/u-root/gobusybox/test/nameconflict/pkg/defaultlog"
+	"github.com/letian0805/gobusybox/test/nameconflict/pkg/defaultlog"
 
 	// anotherlog makes sure that a package can be imported twice with a different name.
-	anotherlog "github.com/u-root/gobusybox/test/nameconflict/pkg/defaultlog"
+	anotherlog "github.com/letian0805/gobusybox/test/nameconflict/pkg/defaultlog"
 
 	// Create a conflict with the self-registering package import.
 	bbmain "flag"

@@ -7,7 +7,7 @@ import (
 	//
 	// This pollutes the namespace of main.go's file scope, as well, but
 	// `foolog` can only be _used_ in this file.
-	foolog "github.com/u-root/gobusybox/test/nameconflict/pkg/defaultlog"
+	foolog "github.com/letian0805/gobusybox/test/nameconflict/pkg/defaultlog"
 
 	// This should be possible -- while no variable can be named anotherlog
 	// in this file, another import *can* be named that.

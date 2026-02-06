@@ -14,7 +14,7 @@ test/mod2/pkg/exthello -> test/mod3/pkg/hello
 ```
 
 -   a dependency whose $GOPATH would not match its Go import path, e.g.
-    `github.com/u-root/gobusybox/test/mod4/v2` in `./test/mod4/`.
+    `github.com/letian0805/gobusybox/test/mod4/v2` in `./test/mod4/`.
 
 -   `mod5` depends on `mod6/pkg/mod5hello`, but nothing in `mod5` does. When
     `mod5` and `mod6` commands are in a busybox together, the local version of

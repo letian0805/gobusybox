@@ -1,3 +1,3 @@
-module github.com/u-root/gobusybox/test/nameconflict
+module github.com/letian0805/gobusybox/test/nameconflict
 
 go 1.15

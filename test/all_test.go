@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/u-root/gobusybox/pkg/golang"
+	"github.com/letian0805/gobusybox/pkg/golang"
 )
 
 var makebb = flag.String("makebb", "", "makebb binary path")
@@ -67,7 +67,7 @@ func TestMakeBB(t *testing.T) {
 			testname:  "injectldvar",
 			cmds:      []string{"."},
 			wd:        filepath.Join(wd, "injectldvar"),
-			extraArgs: []string{"-go-extra-args=-ldflags", "-go-extra-args=-X 'github.com/u-root/gobusybox/test/injectldvar.Something=Hello World'"},
+			extraArgs: []string{"-go-extra-args=-ldflags", "-go-extra-args=-X 'github.com/letian0805/gobusybox/test/injectldvar.Something=Hello World'"},
 			want:      map[string]string{"injectldvar": "Hello World\n"},
 		},
 		{

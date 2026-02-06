@@ -13,7 +13,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/u-root/gobusybox/pkg/bb/bbmain"
+	"github.com/letian0805/gobusybox/pkg/bb/bbmain"
 	// There MUST NOT be any other dependencies here.
 	//
 	// It is preferred to copy minimal code necessary into this file, as

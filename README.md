@@ -1,7 +1,7 @@
 # Go Busybox
 
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/u-root/gobusybox/src)](https://pkg.go.dev/github.com/u-root/gobusybox/src)
-[![Build Status](https://circleci.com/gh/u-root/gobusybox.svg?style=svg)](https://circleci.com/gh/u-root/gobusybox/tree/main)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/letian0805/gobusybox/src)](https://pkg.go.dev/github.com/letian0805/gobusybox/src)
+[![Build Status](https://circleci.com/gh/letian0805/gobusybox.svg?style=svg)](https://circleci.com/gh/letian0805/gobusybox/tree/main)
 [![Slack](https://slack.osfw.dev/badge.svg)](https://slack.osfw.dev)
 
 **Contact**: best bet to reach us is the
@@ -24,7 +24,7 @@ determine which command is being called.
 An example:
 
 ```bash
-go install github.com/u-root/gobusybox/src/cmd/makebb@latest
+go install github.com/letian0805/gobusybox/src/cmd/makebb@latest
 
 git clone github.com/u-root/u-root
 cd u-root
@@ -147,7 +147,7 @@ GBB_PATH=$(pwd)/u-root:$(pwd)/cpu makebb \
 ### goanywhere
 
 ```shell
-go install github.com/u-root/gobusybox/src/cmd/goanywhere@latest
+go install github.com/letian0805/gobusybox/src/cmd/goanywhere@latest
 ```
 
 `goanywhere` creates a Go workspace temporarily on the fly from the packages'
@@ -207,7 +207,7 @@ import (
 You can generate this file for your repo with the `gencmddeps` tool:
 
 ```
-go install github.com/u-root/gobusybox/src/cmd/gencmddeps@latest
+go install github.com/letian0805/gobusybox/src/cmd/gencmddeps@latest
 
 gencmddeps -o deps.go -t tools -p something \
     github.com/u-root/u-root/cmds/core/{ip,init} \
@@ -243,7 +243,7 @@ makebb \
 ## APIs
 
 Besides the makebb CLI command, there is a
-[Go API at src/pkg/bb](https://pkg.go.dev/github.com/u-root/gobusybox/pkg/bb).
+[Go API at src/pkg/bb](https://pkg.go.dev/github.com/letian0805/gobusybox/pkg/bb).
 
 ## Shortcomings
 

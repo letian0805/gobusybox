@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	// A package whose import path does not match its $GOPATH.
-	"github.com/u-root/gobusybox/test/normaldeps/mod2/v2/pkg/hello"
+	"github.com/letian0805/gobusybox/test/normaldeps/mod2/v2/pkg/hello"
 )
 
 func main() {

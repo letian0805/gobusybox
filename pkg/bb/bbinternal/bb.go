@@ -479,7 +479,7 @@ func writeFiles(destDir string, fset *token.FileSet, files []*ast.File) error {
 //
 // bbImportPath is the importpath to use for bbmain. bbImportPath is usually
 // bb.u-root.com/bb/pkg/bbmain for the Go module/vendor-based compilations, but
-// github.com/u-root/gobusybox/pkg/bb/bbmain for bazel-based compilations.
+// github.com/letian0805/gobusybox/pkg/bb/bbmain for bazel-based compilations.
 func (p *Package) Rewrite(destDir, bbImportPath string) error {
 	// This init holds all variable initializations.
 	//
