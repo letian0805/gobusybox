@@ -243,7 +243,7 @@ makebb \
 ## APIs
 
 Besides the makebb CLI command, there is a
-[Go API at src/pkg/bb](https://pkg.go.dev/github.com/u-root/gobusybox/src/pkg/bb).
+[Go API at src/pkg/bb](https://pkg.go.dev/github.com/u-root/gobusybox/pkg/bb).
 
 ## Shortcomings
 

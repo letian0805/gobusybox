@@ -2,7 +2,10 @@
 /makebb
 /bb2
 bazel-*
+/bin/
 
 # for now
 MODULE.bazel
 MODULE.bazel.lock
+
+.idea/

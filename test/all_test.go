@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/u-root/gobusybox/src/pkg/golang"
+	"github.com/u-root/gobusybox/pkg/golang"
 )
 
 var makebb = flag.String("makebb", "", "makebb binary path")
