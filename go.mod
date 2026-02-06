@@ -4,11 +4,11 @@ go 1.25
 
 require (
 	github.com/dustin/go-humanize v1.0.1
-	github.com/hashicorp/go-version v1.6.0
+	github.com/hashicorp/go-version v1.8.0
 	github.com/u-root/uio v0.0.0-20240224005618-d2acac8f3701
 	golang.org/x/exp v0.0.0-20260112195511-716be5621a96
 	golang.org/x/tools v0.41.0
-	mvdan.cc/sh/v3 v3.7.0
+	mvdan.cc/sh/v3 v3.12.0
 )
 
 require (
